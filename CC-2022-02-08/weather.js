@@ -26,7 +26,10 @@ function convertToCelsius (temperature) {
 }
 */
 
+<<<<<<< HEAD
 //Solution 1
+=======
+>>>>>>> 697aa76f934edbfc2d344acb606624599e6710f6
 function weatherInfo (temp) {
   let c = convertToCelsius(temp)
   if (c <= 0)
@@ -40,6 +43,7 @@ function convertToCelsius (temperature) {
   return celsius
 }
 
+<<<<<<< HEAD
 //Solution 2
 function weatherInfo (temp) {
   let c = convertToCelsius(temp)
@@ -51,3 +55,5 @@ function convertToCelsius (temperature) {
   let celsius = (temperature - 32) * (5/9)
   return celsius
 }
+=======
+>>>>>>> 697aa76f934edbfc2d344acb606624599e6710f6
