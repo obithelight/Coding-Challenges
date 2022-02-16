@@ -11,6 +11,6 @@ Good luck :)
 function unusualFive() {
   return "lagos".length
 }
-=======
-*/
->>>>>>> ce773aee1e755c6ed12d002534d56e628676a39e
+
+//Soloution 2
+const unusualFive = () => "lover".length
