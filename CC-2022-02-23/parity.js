@@ -17,19 +17,3 @@ console.log(19 % 3); // 1 because 19 = 3 * 6 + 1
 console.log(20 % 3); // 2 because 20 = 3 * 6 + 2
 */
 
-/************************************************************************************/
-
-//TASK:
-
-/*Improve the program so that it also shows odd numbers. Improve it again to replace the initial number 1 by a number given by the user.
-
-This program must show exactly 10 numbers including the first one, not 11 numbers!
-*/
-
-// for(let i = 1; i <= 10; i++){
-//   if(i % 2 === 0){
-//     console.log(`${i} is an even number`)
-//   }else{
-//     console.log(`${i} is an odd number`)
-//   }
-// }
