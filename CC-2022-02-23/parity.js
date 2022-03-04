@@ -33,3 +33,5 @@ This program must show exactly 10 numbers including the first one, not 11 number
 //     console.log(`${i} is an odd number`)
 //   }
 // }
+
+//Solution 
