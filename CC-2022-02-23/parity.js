@@ -33,8 +33,7 @@ for(let i = 1; i <= 10; i++){
     console.log(`${i} is an odd number`);
   }
 }
-
-//Improve it again to replace the initial number 1 by a number given by the user. 
+ 
 
 let numberInput = prompt(`Enter a number`);
 
