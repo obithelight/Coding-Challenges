@@ -16,3 +16,9 @@ for(let i = 1; i <= turns; i++){
 }
 
 //Solution (WHILE LOOP)
+let turns = +prompt("Enter number of turns")
+let i = 1
+while(i <= turns){
+  console.log(i)
+  i++
+}
