@@ -15,3 +15,4 @@ for(let i = 1; i <= turns; i++){
   console.log(i) 
 }
 
+//Solution (WHILE LOOP)
