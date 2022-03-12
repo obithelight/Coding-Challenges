@@ -9,4 +9,8 @@ for(let i = 1; i <= 10; i++){
   console.log(i) 
 }
 
-//Improve it so that the number of turns is given by the user
+//Improve it so that the number of turns is given by the user.
+let turns = +prompt("Enter number of turns")
+for(let i = 1; i <= turns; i++){
+  console.log(i) 
+}
