@@ -30,10 +30,11 @@ for(let i = 1; i <= 10; i++){
   if(i % 2 === 0){
     console.log(`${i} is an even number`);
   }else{
-    console.log(`${i} is an odd number`);
+    console.log(`${i} is an odd number`)
   }
 }
- 
+
+//Improve it again to replace the initial number 1 by a number given by the user. 
 
 let numberInput = prompt(`Enter a number`);
 
