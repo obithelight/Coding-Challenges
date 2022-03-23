@@ -6,3 +6,9 @@ When you are done with the above, improve the program so that the terminating nu
 */ 
 
 //Solution
+let userNum = 0
+do{
+  userNum = +prompt("Enter a number between 1 and 100")
+}while(userNum > 100){
+  console.log(userNum)
+}
