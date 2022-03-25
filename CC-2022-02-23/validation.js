@@ -12,3 +12,6 @@ do{
 }while(userNum > 100){
   console.log(userNum)
 }
+
+//Improve the program so that the terminating number is between 50 and 100.
+
