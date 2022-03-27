@@ -15,3 +15,9 @@ do{
 
 //Improve the program so that the terminating number is between 50 and 100.
 
+let userNum = 0
+do{
+  userNum = +prompt("Enter a number between 50 and 100")
+}while(userNum < 50 || userNum > 100){
+  console.log(userNum)
+}
