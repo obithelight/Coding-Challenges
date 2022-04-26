@@ -9,3 +9,4 @@ You can return the answer in any order.
 function findTarget(nums, target) {
 	//outer loop grabbing a num.
 	for (let i = 0; i < nums.length; i++) {
+		//inner loop testing that num with other nums.
