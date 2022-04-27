@@ -11,3 +11,4 @@ function findTarget(nums, target) {
 	for (let i = 0; i < nums.length; i++) {
 		//inner loop testing that num with other nums.
 		for (let j = 0; j < nums.length; j++) {
+			if (nums[i] + nums[j] === target && i !== j) {
