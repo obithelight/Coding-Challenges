@@ -18,3 +18,4 @@ function findTarget(nums, target) {
   }
 }
 console.log(findTarget([1, 2, 3, 4, 5], 9), "[3, 4]");
+console.log(findTarget([5, 6, 9], 11), "[0, 1]");
