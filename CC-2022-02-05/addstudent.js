@@ -20,4 +20,19 @@ function findStudent(keyword) {
   }
 }
 
-//ZUITT SOLUTION
+//ZUITT 
+function findStudent(keyword) {
+  // Loops through all elements of the array to find the student name that matches the keyword provided
+  let match = students.filter(function (student) {
+    // If the student name includes the keyword provided
+    return student.toLowerCase().includes(keyword.toLowerCase());
+  });
+  // match is an array...
+  if (match.length == 1) {
+    console.log(match[0] + " is enrolled."); // if 1 student was found, print the first element (at index 0) in a formatted string
+  } else if (match.length > 1) {
+    console.log("Multiple students match this keyword."); // more than 1 student was found
+  } else {
+    console.log("No students match this keyword."); // 0 students were found
+  }
+}
