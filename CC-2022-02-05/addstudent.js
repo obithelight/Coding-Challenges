@@ -39,3 +39,4 @@ function findStudent(keyword) {
 
 findStudent("a");
 findStudent("B");
+findStudent("c");
