@@ -36,3 +36,5 @@ function findStudent(keyword) {
     console.log("No students match this keyword."); // 0 students were found
   }
 }
+
+findStudent("a");
