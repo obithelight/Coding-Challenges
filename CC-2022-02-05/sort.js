@@ -13,3 +13,4 @@ function twoSort(s) {
 }
 
 //Solution
+const twoSort = s => s.sort()[0].split('').join('***')
