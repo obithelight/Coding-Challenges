@@ -38,7 +38,7 @@ function findStudent(keyword) {
 }
 
 findStudent("a"); //"Multiple students match this keyword."
-findStudent("B");
-findStudent("c");
-findStudent("D");
+findStudent("B"); //"No students match this keyword."
+findStudent("c"); 
+findStudent("D"); 
 findStudent("e");
