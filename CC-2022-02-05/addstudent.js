@@ -40,5 +40,5 @@ function findStudent(keyword) {
 findStudent("a"); //"Multiple students match this keyword."
 findStudent("B"); //"No students match this keyword."
 findStudent("c"); //"No students match this keyword."
-findStudent("D"); 
+findStudent("D"); //"Ada is enrolled."
 findStudent("e");
