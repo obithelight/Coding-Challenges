@@ -41,4 +41,4 @@ findStudent("a"); //"Multiple students match this keyword."
 findStudent("B"); //"No students match this keyword."
 findStudent("c"); //"No students match this keyword."
 findStudent("D"); //"Ada is enrolled."
-findStudent("e");
+findStudent("e"); //"Jero is enrolled."
