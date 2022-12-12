@@ -11,3 +11,14 @@ isIsogram "aba" = false
 */
 
 //Solution 
+function isIsogram(str){
+  str = str.toUpperCase()
+  for(let x = 0; x < str.length; x++){
+    for(let y = x + 1; y < str.length; y++){
+      if(str[x] === str[y]){
+          return false
+      }
+    }
+  }
+  return true
+}
