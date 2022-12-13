@@ -7,3 +7,7 @@ You should not remove or add elements from/to the array.
 */
 
 //Solution
+function twoSort(s) {
+  s.sort()
+  return s[0].split('').join('***')
+}
