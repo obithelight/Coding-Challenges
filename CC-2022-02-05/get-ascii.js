@@ -9,4 +9,4 @@ should return:
 'A'
 */
 
-//
+//Solution 1
