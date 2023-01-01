@@ -9,3 +9,9 @@ guessBlue() should return the probability of drawing a blue marble, expressed as
 */
 
 //Solution 
+function guessBlue(blueStart, redStart, bluePulled, redPulled) {
+  let a = (blueStart - bluePulled) 
+  let b = (redStart - redPulled)
+  let c = a + b
+  return a / c
+  }
