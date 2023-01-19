@@ -18,3 +18,5 @@ var surname = {A: 'Analogue', B: 'Bomb', C: 'Catalyst' ...}
 aliasGen('Larry', 'Brentwood') === 'Logic Bomb'
 aliasGen('123abc', 'Petrovic') === 'Your name must start
 */
+
+//Solution
