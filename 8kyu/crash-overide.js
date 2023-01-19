@@ -20,3 +20,8 @@ aliasGen('123abc', 'Petrovic') === 'Your name must start
 */
 
 //Solution
+function aliasGen(str1,str2){
+  const first = firstName[str1[0].toUpperCase()]
+  const sur = surname[str2[0].toUpperCase()]
+  return first && sur ? `${first} ${sur}` : "Your name must start with a letter from A - Z."
+}
